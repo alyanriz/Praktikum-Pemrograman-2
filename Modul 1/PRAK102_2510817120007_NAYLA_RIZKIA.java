@@ -6,7 +6,7 @@ public class PRAK102_2510817120007_NAYLA_RIZKIA {
         int angka = sc.nextInt();
 
         int i = 0;
-        while (i < 11) {
+        while (i < 10) {
             if (i > 0) {
                 System.out.print(", ");
             }
