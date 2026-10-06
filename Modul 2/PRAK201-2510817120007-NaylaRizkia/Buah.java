@@ -20,7 +20,7 @@ public class Buah {
         double total = 0;
         double diskon = 0;
 
-        for (int i = 0; i < jumlahBeli / 4; i++) {
+        for (int i = 0; i < (int) jumlahBeli / 4; i++) {
             total = harga * (4 / berat);
             diskon += total * 0.02;
 
@@ -33,9 +33,9 @@ public class Buah {
         System.out.printf("Nama Buah: %s\n" +
                 "Berat: %.1f\n" +
                 "Harga: %.1f\n" +
-                "Jumlah Beli: %.1f kg\n" +
+                "Jumlah Beli: %.1fkg\n" +
                 "Harga Sebelum Diskon: Rp%.2f\n" +
-                "Total Diskon: %.2f\n" +
+                "Total Diskon: Rp%.2f\n" +
                 "Harga Setelah Diskon: Rp%.2f\n\n",
                 this.nama, this.berat, this.harga, this.jumlahBeli, this.total, this.diskon, (this.total - this.diskon));
     }
