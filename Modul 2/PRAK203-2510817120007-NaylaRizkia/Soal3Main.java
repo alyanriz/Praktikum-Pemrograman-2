@@ -16,6 +16,8 @@ public class Soal3Main {
         System.out.println("Nama: " + p1.getNama());
         System.out.println("Asal: " + p1.getAsal());
         System.out.println("Jabatan: " + p1.jabatan);
-        System.out.println("Umur: " + p1.umur);
+//        kurang kata "tahun"
+//        System.out.println("Umur: " + p1.umur);
+        System.out.println("Umur: " + p1.umur + " tahun");
     }
 }
