@@ -20,7 +20,7 @@ public class Main {
         String warna = sc.nextLine();
 
         if (pilihan == 1) {
-            Kucing kucing = new Kucing(nama, ras, warna);
+            Kucing kucing = new Kucing(ras, nama, warna);
             kucing.displayDetailKucing();
         } else if (pilihan == 2) {
             System.out.print("Kemampuan: ");
